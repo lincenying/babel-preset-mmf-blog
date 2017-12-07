@@ -1,23 +1,34 @@
 {
-    "name": "babel-preset-mmf-blog",
-    "version": "1.0.1",
-    "description": "Complete babel presets for a Vue app.",
-    "repository": {
-        "url": "lincenying/babel-preset-mmf-blog",
-        "type": "git"
-    },
-    "main": "index.js",
-    "files": [
-        "index.js"
-    ],
-    "author": "lincenying <lincenying@qq.com>",
-    "license": "MIT",
-    "dependencies": {
-        "babel-plugin-transform-export-extensions": "^6.22.0",
-        "babel-plugin-transform-runtime": "^6.15.0",
-        "babel-preset-env": "^1.1.10",
-        "babel-preset-es2015": "^6.22.0",
-        "babel-preset-stage-2": "^6.18.0",
-        "babel-runtime": "^6.20.0"
-    }
+  "name": "babel-preset-vue-app",
+  "version": "0.4.0",
+  "description": "Complete babel presets for a Vue app.",
+  "repository": {
+    "url": "egoist/babel-preset-vue-app",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-vue": "^0.1.0",
+    "babel-runtime": "^6.20.0"
+  }
 }
