@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-mmf-blog",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Complete babel presets for a Vue app.",
   "repository": {
     "url": "lincenying/babel-preset-mmf-blog",
