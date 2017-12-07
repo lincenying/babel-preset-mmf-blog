@@ -12,7 +12,7 @@
 ## Install
 
 ```bash
-yarn add babel-preset-vue-app --dev
+yarn add babel-preset-mmf-blog --dev
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ yarn add babel-preset-vue-app --dev
 ```js
 // .babelrc
 {
-  "presets": ["vue-app"]
+  "presets": ["mmf-blog"]
 }
 ```
 
