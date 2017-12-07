@@ -1,9 +1,9 @@
 {
-  "name": "babel-preset-vue-app",
+  "name": "babel-preset-mmf-blog",
   "version": "2.0.0",
   "description": "Complete babel presets for a Vue app.",
   "repository": {
-    "url": "egoist/babel-preset-vue-app",
+    "url": "lincenying/babel-preset-mmf-blog",
     "type": "git"
   },
   "main": "dist/index.common.js",
@@ -15,7 +15,7 @@
     "lint": "xo",
     "build": "bili --name index"
   },
-  "author": "egoist <0x142857@gmail.com>",
+  "author": "lincenying <lincenying@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
